@@ -1,3 +1,4 @@
+import REACT_APP_API_URL from '../utils/api'
 class MainApi {
   constructor({ url, headers }) {
     this._url = url
@@ -22,7 +23,7 @@ class MainApi {
 }
 
 const mainApi = new MainApi({
-  url: process.env.REACT_APP_API_URL,
+  url: REACT_APP_API_URL,
   headers: {
     'content-type': 'application/json',
   },
