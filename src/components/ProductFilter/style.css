@@ -1,0 +1,24 @@
+.filter {
+    width: 100%;
+    margin-top: 2rem;
+}
+.filter__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.container__textLabel {
+    font-size: 28px;
+    font-weight: normal;
+}
+.container__select {
+    margin: 0 20px;
+    width: 180px;
+    font-size: 22px;
+}
+.container__select:active {
+    font-size: 16px;
+}

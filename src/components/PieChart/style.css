@@ -1,0 +1,15 @@
+.pie {
+    width: 50%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin: 2rem auto 0;
+}
+.pie__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-weight: 900;
+}
