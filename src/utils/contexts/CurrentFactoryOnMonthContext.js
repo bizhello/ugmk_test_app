@@ -1,5 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const CurrentFactoryOnMonthContext = React.createContext()
+const CurrentFactoryOnMonthContext = React.createContext();
 
-export default CurrentFactoryOnMonthContext
+export default CurrentFactoryOnMonthContext;

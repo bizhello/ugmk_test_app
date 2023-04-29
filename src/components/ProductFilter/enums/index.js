@@ -5,6 +5,6 @@ const FILTER_ENUM = {
   PRODUCT_DISABLED: 'Учитывать продукцию',
   TITLE: 'Фильтр по типу продукции',
   KEY_CURRENT_FILTER: 'currentFilter',
-}
+};
 
-export default FILTER_ENUM
+export default FILTER_ENUM;

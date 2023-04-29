@@ -1,6 +1,6 @@
-import { OPTIONS_ENUM } from '../enums'
+import { OPTIONS_ENUM } from '../enums';
 
-const labels = ['Продукт 1', 'Продукт 2']
+const labels = ['Продукт 1', 'Продукт 2'];
 
 const options = {
   plugins: {
@@ -8,8 +8,8 @@ const options = {
       position: OPTIONS_ENUM.POSITION,
     },
     datalabels: {
-      color: function (context) {
-        return context.dataset.backgroundColor
+      color(context) {
+        return context.dataset.backgroundColor;
       },
       display: OPTIONS_ENUM.DISPLAY,
       borderRadius: OPTIONS_ENUM.RADIUS,
@@ -21,6 +21,6 @@ const options = {
       offset: OPTIONS_ENUM.OFFSET,
     },
   },
-}
+};
 
-export { labels, options }
+export { labels, options };

@@ -1,6 +1,6 @@
-import { OPTIONS_ENUM } from '../enums'
+import { OPTIONS_ENUM } from '../enums';
 
-const months = ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
+const months = ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'];
 
 const options = {
   responsive: true,
@@ -9,6 +9,6 @@ const options = {
       position: OPTIONS_ENUM.POSITION,
     },
   },
-}
+};
 
-export { months, options }
+export { months, options };
